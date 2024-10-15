@@ -55,11 +55,13 @@ Here are some ideas to get you started:
   </tr>
 </table>
 
+<!--
 ### Languages & Frameworks I use
 [![Languages & Frameworks I use](https://skillicons.dev/icons?i=ts,js,python,rust,wasm,tailwind,html,css,md)](https://skillicons.dev)
 
 ### Stacks I work with
 [![Languages I use](https://skillicons.dev/icons?i=postgres,mysql,sqlite,supabase,mongodb,redis,linux,nodejs,grafana,docker,githubactions,git,cloudflare)](https://skillicons.dev)
+-->
 
 ### Find me
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/icealtria)
