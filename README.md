@@ -67,4 +67,4 @@ Here are some ideas to get you started:
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/icealtria)
 [![Keybase PGP](https://img.shields.io/keybase/pgp/icealtria?style=flat-square)](https://keybase.io/icealtria/pgp_keys.asc)
 
-![](https://count.getloli.com/get/@icealtria?theme=moebooru-h)
+![](https://count.getloli.com/get/@icealtria?theme=moebooru)
