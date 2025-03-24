@@ -30,12 +30,6 @@ Here are some ideas to get you started:
     </a></td>
     <td><a href="https://github.com/icealtria">
       <picture height="200" >
-        <source
-          srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=icealtria&hide_border=true&layout=compact&langs_count=8&hide=html,css&bg_color=0d1117&theme=dark&exclude_repo=cs61b-sp21,cs61a-22sp"
-          height="200" media="(prefers-color-scheme: dark)" />
-        <source
-          srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=icealtria&hide_border=true&layout=compact&langs_count=8&hide=html,css&bg_color=ffffff&exclude_repo=cs61b-sp21,cs61a-22sp"
-          height="200" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=icealtria&hide_border=true&layout=compact&langs_count=8&hide=html,css&exclude_repo=cs61b-sp21,cs61a-22sp" height="200" />
       </picture>
     </a></td>
