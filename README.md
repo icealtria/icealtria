@@ -20,12 +20,12 @@ Here are some ideas to get you started:
     <td><a href="https://github.com/icealtria">
       <picture>
         <source
-          srcset="https://bad-apple-github-readme.vercel.app/api?username=icealtria&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&theme=dark&show_bg=1"
+          srcset="https://github-readme-stats.vercel.app/api?username=icealtria&show_icons=true&theme=gruvbox"
           height="200" media="(prefers-color-scheme: dark)" />
         <source
-          srcset="https://bad-apple-github-readme.vercel.app/api?username=icealtria&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=ffffff&show_bg=1"
+          srcset="https://github-readme-stats.vercel.app/api?username=icealtria&show_icons=true&theme=transparent&hide_border=true"
           height="200" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-        <img src="https://bad-apple-github-readme.vercel.app/api?username=icealtria&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" height="200" />
+        <img src="https://github-readme-stats.vercel.app/api?username=icealtria&show_icons=true&theme=transparent&hide_border=true" height="200" />
       </picture>
     </a></td>
     <td><a href="https://github.com/icealtria">
