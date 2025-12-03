@@ -14,7 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
+![](github-metrics.svg)
+<!--
 <table width="100%" align="center">
   <tr>
     <td><a href="https://github.com/icealtria">
@@ -48,7 +49,7 @@ Here are some ideas to get you started:
     </a></td>
   </tr>
 </table>
-
+-->
 <!--
 ### Languages & Frameworks I use
 [![Languages & Frameworks I use](https://skillicons.dev/icons?i=ts,js,python,rust,wasm,tailwind,html,css,md)](https://skillicons.dev)
@@ -56,7 +57,6 @@ Here are some ideas to get you started:
 ### Stacks I work with
 [![Languages I use](https://skillicons.dev/icons?i=postgres,mysql,sqlite,supabase,mongodb,redis,linux,nodejs,grafana,docker,githubactions,git,cloudflare)](https://skillicons.dev)
 -->
-
 ### Find me
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/icealtria)
 [![Keybase PGP](https://img.shields.io/keybase/pgp/icealtria?style=flat-square)](https://keybase.io/icealtria/pgp_keys.asc)
