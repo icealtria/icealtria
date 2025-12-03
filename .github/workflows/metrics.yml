@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
+  schedule: [{cron: "0 0 */1 * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["master", "main"]}
@@ -33,7 +33,7 @@ jobs:
           plugin_anilist_limit: 0
           plugin_anilist_limit_characters: 22
           plugin_anilist_medias: anime
-          plugin_anilist_sections: favorites
+          plugin_anilist_sections: characters
           plugin_anilist_shuffle: yes
           plugin_anilist_user: icealtria
           plugin_languages: yes
@@ -48,7 +48,7 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_skipped: fullstackopen2022, cs61a-22sp, cs61b-sp21
-          plugin_languages_threshold: 10%
+          plugin_languages_threshold: 0%
           plugin_skyline: yes
           plugin_skyline_frames: 60
           plugin_skyline_quality: 0.5
