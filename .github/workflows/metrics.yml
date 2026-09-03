@@ -1,0 +1,79 @@
+# Visit https://github.com/lowlighter/metrics#-documentation for full reference
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 0 */1 * *"}]
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          config_action: none
+          # Your GitHub token
+          # The following scopes are required:
+          #  - public_access (default scope)
+          # The following additional scopes may be required:
+          #  - read:org      (for organization related metrics)
+          #  - read:user     (for user related data)
+          #  - read:packages (for some packages related data)
+          #  - repo          (optional, if you want to include private repositories)
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Options
+          user: icealtria
+          template: classic
+          base: repositories, metadata
+          config_timezone: Asia/Singapore
+          plugin_anilist: yes
+          plugin_anilist_sections: characters
+          plugin_anilist_limit_characters: 22
+          plugin_anilist_user: icealtria
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_ignored: html,css,javascript,mdx,inno setup,jupyter notebook,shell
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_skipped: fullstackopen2022, cs61a-22sp, cs61b-sp21
+          plugin_languages_threshold: 0%
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: icons
+          plugin_topics_sort: stars
+          plugin_wakatime: yes
+          plugin_wakatime_days: 7
+          plugin_wakatime_limit: 5
+          plugin_wakatime_repositories_visibility: public
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_url: https://wakatime.com
+          plugin_wakatime_user: current
+          plugin_wakatime_token: ${{ secrets.WAKA }}
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
+          plugin_isocalendar: yes
+      - name: Force push
+        run: |
+          cp /renders/github-metrics.svg .
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-metrics.svg
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Update github-metrics.svg"
+          git push --force
