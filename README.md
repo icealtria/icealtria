@@ -59,6 +59,8 @@ Here are some ideas to get you started:
 -->
 ### Find me
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/icealtria)
-[![Keybase PGP](https://img.shields.io/keybase/pgp/icealtria?style=flat-square)](https://keys.openpgp.org/vks/v1/by-fingerprint/8BA97C7CA03CA9ABD3B5A0A89597360E8CC9805E)
+[![PGP Key](https://gpg-badge.hesreallyhim.com/icealtria?style=flat-square)](https://keys.openpgp.org/vks/v1/by-fingerprint/8BA97C7CA03CA9ABD3B5A0A89597360E8CC9805E)
+
+age1yubikey1qdf3rssv43cn2waw320ukm80znsz6t4xsmhnd38nf9ar62mfkqgr7sqekqk
 
 ![](https://count.getloli.com/get/@icealtria?theme=moebooru)
